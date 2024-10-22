@@ -1,6 +1,6 @@
-package com.securityjwtsia.sia.Config;
+package com.portfolio.sia.Security.Config;
 
-import com.securityjwtsia.sia.Service.CustomUserDetailService;
+import com.portfolio.sia.Security.Service.CustomUserDetailService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -19,8 +19,8 @@ public class SecurityConfig  {
 
     public SecurityConfig(CustomUserDetailService customUserDetailsService) {
         this.userDetailsService = customUserDetailsService;
-
     }
+    
     @Bean
     public AuthenticationManager authenticationManager(HttpSecurity http, NoOpPasswordEncoder noOpPasswordEncoder)
             throws Exception {

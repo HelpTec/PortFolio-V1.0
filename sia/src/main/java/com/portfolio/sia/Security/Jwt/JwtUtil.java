@@ -1,6 +1,6 @@
-package com.securityjwtsia.sia.Jwt;
+package com.portfolio.sia.Security.Jwt;
 
-import com.securityjwtsia.sia.Entity.User.User;
+import com.portfolio.sia.Security.Entity.User.User;
 import io.jsonwebtoken.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.core.AuthenticationException;

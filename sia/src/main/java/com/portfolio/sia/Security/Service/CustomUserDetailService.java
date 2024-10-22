@@ -1,7 +1,7 @@
-package com.securityjwtsia.sia.Service;
+package com.portfolio.sia.Security.Service;
 
-import com.securityjwtsia.sia.Entity.User.User;
-import com.securityjwtsia.sia.Repository.UserRepository;
+import com.portfolio.sia.Security.Entity.User.User;
+import com.portfolio.sia.Security.Repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

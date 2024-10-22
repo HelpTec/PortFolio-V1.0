@@ -1,4 +1,4 @@
-package com.securityjwtsia.sia.Entity.Req;
+package com.portfolio.sia.Security.Entity.Req;
 
 public class LoginReq {
     private String email;

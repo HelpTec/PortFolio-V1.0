@@ -1,6 +1,6 @@
-package com.securityjwtsia.sia.DTO;
+package com.portfolio.sia.Security.DTO;
 
-import com.securityjwtsia.sia.Entity.User.Role;
+import com.portfolio.sia.Security.Entity.User.Role;
 import java.util.HashSet;
 import java.util.Set;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.securityjwtsia.sia.Repository;
+package com.portfolio.sia.Security.Repository;
 
-import com.securityjwtsia.sia.Entity.User.Role;
+import com.portfolio.sia.Security.Entity.User.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

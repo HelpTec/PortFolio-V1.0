@@ -1,9 +1,9 @@
-package com.securityjwtsia.sia.Service;
+package com.portfolio.sia.Security.Service;
 
-import com.securityjwtsia.sia.Entity.User.Role;
-import com.securityjwtsia.sia.Entity.User.User;
-import com.securityjwtsia.sia.Repository.RoleRepository;
-import com.securityjwtsia.sia.Repository.UserRepository;
+import com.portfolio.sia.Security.Entity.User.Role;
+import com.portfolio.sia.Security.Entity.User.User;
+import com.portfolio.sia.Security.Repository.RoleRepository;
+import com.portfolio.sia.Security.Repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service

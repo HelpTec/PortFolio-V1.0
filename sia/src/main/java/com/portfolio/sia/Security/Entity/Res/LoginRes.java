@@ -1,4 +1,4 @@
-package com.securityjwtsia.sia.Entity.Res;
+package com.portfolio.sia.Security.Entity.Res;
 
 public class LoginRes {
     private String email;

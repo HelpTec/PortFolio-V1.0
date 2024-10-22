@@ -1,4 +1,4 @@
-package com.securityjwtsia.sia.Entity.User;
+package com.portfolio.sia.Security.Entity.User;
 
 import jakarta.persistence.*;
 import java.util.HashSet;

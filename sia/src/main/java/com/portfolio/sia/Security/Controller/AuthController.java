@@ -1,12 +1,12 @@
-package com.securityjwtsia.sia.Controller;
+package com.portfolio.sia.Security.Controller;
 
-import com.securityjwtsia.sia.DTO.UserDTO;
-import com.securityjwtsia.sia.Entity.Req.LoginReq;
-import com.securityjwtsia.sia.Entity.Res.ErrorRes;
-import com.securityjwtsia.sia.Entity.Res.LoginRes;
-import com.securityjwtsia.sia.Entity.User.User;
-import com.securityjwtsia.sia.Jwt.JwtUtil;
-import com.securityjwtsia.sia.Service.UserService;
+import com.portfolio.sia.Security.DTO.UserDTO;
+import com.portfolio.sia.Security.Entity.Req.LoginReq;
+import com.portfolio.sia.Security.Entity.Res.ErrorRes;
+import com.portfolio.sia.Security.Entity.Res.LoginRes;
+import com.portfolio.sia.Security.Entity.User.User;
+import com.portfolio.sia.Security.Jwt.JwtUtil;
+import com.portfolio.sia.Security.Service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
