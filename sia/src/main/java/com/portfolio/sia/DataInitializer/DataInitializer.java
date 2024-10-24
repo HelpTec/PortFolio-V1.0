@@ -1,6 +1,8 @@
 
 package com.portfolio.sia.DataInitializer;
 
+import com.portfolio.sia.Entity.Persona;
+import com.portfolio.sia.Repositorios.PersonaRepository;
 import com.portfolio.sia.Security.Entity.User.Role;
 import com.portfolio.sia.Security.Entity.User.User;
 import com.portfolio.sia.Security.Repository.RoleRepository;
@@ -18,6 +20,9 @@ public class DataInitializer implements CommandLineRunner {
     
     @Autowired
     private UserRepository userRepository;
+    
+    @Autowired
+    private PersonaRepository personaRepository;
     
     @Autowired
     private RoleRepository roleRepository;
@@ -60,6 +65,10 @@ public class DataInitializer implements CommandLineRunner {
             user.setRoles(roles);
             
             userRepository.save(user);
+            
+            Persona persona = new Persona();
+            persona.setUsuario(user);
+            personaRepository.save(persona);
         }
     }
 }

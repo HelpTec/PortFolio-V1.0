@@ -1,5 +1,6 @@
 package com.portfolio.sia.Security.Entity.User;
 
+import com.portfolio.sia.Entity.Persona;
 import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,5 +21,8 @@ public class User {
     
     @ManyToMany    
     @Getter @Setter private Set<Role> Roles = new HashSet<>();
+    
+    @OneToOne(mappedBy = "usuario")
+    private Persona persona;
     
 }
